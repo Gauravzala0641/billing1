@@ -43,13 +43,26 @@
     <label for="screenshot">Upload Payment Screenshot</label>
     <input type="file" id="screenshot" name="screenshot" required>
 
-   <a href="https://gauravzala0641.github.io/tnx-web/" class="cta-button">Submit Payment</a>
+    <!-- QR Code Section (Upload QR Code) -->
+    <label for="qr-code">Upload Your QR Code</label>
+    <input type="file" id="qr-code" name="qr-code" accept="image/*">
+
+    <!-- Static QR Code Image Section (Optional) -->
+    <div class="qr-section">
+      <h3>Scan QR Code for Payment</h3>
+      <img src="path/to/your/qr-code-image.png" alt="Payment QR Code" class="qr-code">
+      <p>Scan the QR code to make a payment.</p>
+    </div>
+
+    <!-- Submit Button -->
+    <a href="https://gauravzala0641.github.io/tnx-web/" class="cta-button">Submit Payment</a>
   </form>
 
   <!-- Footer Section -->
   <footer>
     <p>&copy; 2025 RaxenCloud - All rights reserved</p>
   </footer>
+
 </body>
 
 </html>
